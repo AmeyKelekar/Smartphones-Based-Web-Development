@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Address_E" representedClassName="Address_E" syncable="YES">
+        <attribute name="apartmentNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="streetName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zipCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Person_E" inverseName="address" inverseEntity="Person_E" syncable="YES"/>
+    </entity>
+    <entity name="MedicalRecord_E" representedClassName="MedicalRecord_E" syncable="YES">
+        <attribute name="heartRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="respiratoryRate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="systolicBloodPressure" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Patient_E" inverseName="medicalRecord" inverseEntity="Patient_E" syncable="YES"/>
+    </entity>
+    <entity name="Patient_E" representedClassName="Patient_E" parentEntity="Person_E" syncable="YES">
+        <attribute name="displayImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="primaryCarePhysician" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="medicalRecord" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="MedicalRecord_E" inverseName="patient" inverseEntity="MedicalRecord_E" syncable="YES"/>
+    </entity>
+    <entity name="Person_E" representedClassName="Person_E" syncable="YES">
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="socialSecurityNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="telephoneNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Address_E" inverseName="person" inverseEntity="Address_E" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Address_E" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="MedicalRecord_E" positionX="-72" positionY="-180" width="128" height="133"/>
+        <element name="Patient_E" positionX="196" positionY="-160" width="128" height="88"/>
+        <element name="Person_E" positionX="205" positionY="-27" width="128" height="133"/>
+    </elements>
+</model>

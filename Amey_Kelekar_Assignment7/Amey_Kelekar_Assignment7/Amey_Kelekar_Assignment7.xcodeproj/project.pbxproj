@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99DF2BF71CA71E2D00E0AA57 /* Patient_E+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BE81CA71E2D00E0AA57 /* Patient_E+CoreDataProperties.m */; };
+		99DF2BF81CA71E2D00E0AA57 /* Patient_E.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BEA1CA71E2D00E0AA57 /* Patient_E.m */; };
+		99DF2BF91CA71E2D00E0AA57 /* Person_E+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BEC1CA71E2D00E0AA57 /* Person_E+CoreDataProperties.m */; };
+		99DF2BFA1CA71E2D00E0AA57 /* Person_E.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BEE1CA71E2D00E0AA57 /* Person_E.m */; };
+		99DF2BFB1CA71E2D00E0AA57 /* MedicalRecord_E+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BF01CA71E2D00E0AA57 /* MedicalRecord_E+CoreDataProperties.m */; };
+		99DF2BFC1CA71E2D00E0AA57 /* MedicalRecord_E.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BF21CA71E2D00E0AA57 /* MedicalRecord_E.m */; };
+		99DF2BFD1CA71E2D00E0AA57 /* Address_E+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BF41CA71E2D00E0AA57 /* Address_E+CoreDataProperties.m */; };
+		99DF2BFE1CA71E2D00E0AA57 /* Address_E.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF2BF61CA71E2D00E0AA57 /* Address_E.m */; };
+		99E47BBE1CA35171008A9B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47BBD1CA35171008A9B09 /* main.m */; };
+		99E47BC11CA35171008A9B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47BC01CA35171008A9B09 /* AppDelegate.m */; };
+		99E47BC41CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99E47BC21CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodeld */; };
+		99E47BCD1CA35171008A9B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E47BCB1CA35171008A9B09 /* Main.storyboard */; };
+		99E47BCF1CA35171008A9B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E47BCE1CA35171008A9B09 /* Assets.xcassets */; };
+		99E47BD21CA35171008A9B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E47BD01CA35171008A9B09 /* LaunchScreen.storyboard */; };
+		99E47BDD1CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47BDC1CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.m */; };
+		99E47BE81CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47BE71CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.m */; };
+		99E47BFB1CA35246008A9B09 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47BFA1CA35246008A9B09 /* Address.m */; };
+		99E47BFE1CA352D2008A9B09 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47BFD1CA352D2008A9B09 /* Person.m */; };
+		99E47C011CA35322008A9B09 /* MedicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C001CA35322008A9B09 /* MedicalRecord.m */; };
+		99E47C041CA35449008A9B09 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C031CA35449008A9B09 /* Patient.m */; };
+		99E47C071CA35522008A9B09 /* Hospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C061CA35522008A9B09 /* Hospital.m */; };
+		99E47C0D1CA3561E008A9B09 /* NSString+ReadString.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C0C1CA3561E008A9B09 /* NSString+ReadString.m */; };
+		99E47C151CA35BED008A9B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C131CA35BED008A9B09 /* ViewController.m */; };
+		99E47C1A1CA45496008A9B09 /* ListPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C191CA45496008A9B09 /* ListPatientViewController.m */; };
+		99E47C1D1CA454CA008A9B09 /* AddPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C1C1CA454CA008A9B09 /* AddPatientViewController.m */; };
+		99E47C201CA4C71F008A9B09 /* no_image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 99E47C1F1CA4C71F008A9B09 /* no_image.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99E47BD91CA35171008A9B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99E47BB11CA35171008A9B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E47BB81CA35171008A9B09;
+			remoteInfo = Amey_Kelekar_Assignment7;
+		};
+		99E47BE41CA35171008A9B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99E47BB11CA35171008A9B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E47BB81CA35171008A9B09;
+			remoteInfo = Amey_Kelekar_Assignment7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99DF2BE71CA71E2D00E0AA57 /* Patient_E+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Patient_E+CoreDataProperties.h"; path = "CoreData/Patient_E+CoreDataProperties.h"; sourceTree = "<group>"; };
+		99DF2BE81CA71E2D00E0AA57 /* Patient_E+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Patient_E+CoreDataProperties.m"; path = "CoreData/Patient_E+CoreDataProperties.m"; sourceTree = "<group>"; };
+		99DF2BE91CA71E2D00E0AA57 /* Patient_E.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Patient_E.h; path = CoreData/Patient_E.h; sourceTree = "<group>"; };
+		99DF2BEA1CA71E2D00E0AA57 /* Patient_E.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Patient_E.m; path = CoreData/Patient_E.m; sourceTree = "<group>"; };
+		99DF2BEB1CA71E2D00E0AA57 /* Person_E+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person_E+CoreDataProperties.h"; path = "CoreData/Person_E+CoreDataProperties.h"; sourceTree = "<group>"; };
+		99DF2BEC1CA71E2D00E0AA57 /* Person_E+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person_E+CoreDataProperties.m"; path = "CoreData/Person_E+CoreDataProperties.m"; sourceTree = "<group>"; };
+		99DF2BED1CA71E2D00E0AA57 /* Person_E.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person_E.h; path = CoreData/Person_E.h; sourceTree = "<group>"; };
+		99DF2BEE1CA71E2D00E0AA57 /* Person_E.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person_E.m; path = CoreData/Person_E.m; sourceTree = "<group>"; };
+		99DF2BEF1CA71E2D00E0AA57 /* MedicalRecord_E+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MedicalRecord_E+CoreDataProperties.h"; path = "CoreData/MedicalRecord_E+CoreDataProperties.h"; sourceTree = "<group>"; };
+		99DF2BF01CA71E2D00E0AA57 /* MedicalRecord_E+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MedicalRecord_E+CoreDataProperties.m"; path = "CoreData/MedicalRecord_E+CoreDataProperties.m"; sourceTree = "<group>"; };
+		99DF2BF11CA71E2D00E0AA57 /* MedicalRecord_E.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicalRecord_E.h; path = CoreData/MedicalRecord_E.h; sourceTree = "<group>"; };
+		99DF2BF21CA71E2D00E0AA57 /* MedicalRecord_E.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicalRecord_E.m; path = CoreData/MedicalRecord_E.m; sourceTree = "<group>"; };
+		99DF2BF31CA71E2D00E0AA57 /* Address_E+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Address_E+CoreDataProperties.h"; path = "CoreData/Address_E+CoreDataProperties.h"; sourceTree = "<group>"; };
+		99DF2BF41CA71E2D00E0AA57 /* Address_E+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Address_E+CoreDataProperties.m"; path = "CoreData/Address_E+CoreDataProperties.m"; sourceTree = "<group>"; };
+		99DF2BF51CA71E2D00E0AA57 /* Address_E.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Address_E.h; path = CoreData/Address_E.h; sourceTree = "<group>"; };
+		99DF2BF61CA71E2D00E0AA57 /* Address_E.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Address_E.m; path = CoreData/Address_E.m; sourceTree = "<group>"; };
+		99E47BB91CA35171008A9B09 /* Amey_Kelekar_Assignment7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amey_Kelekar_Assignment7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E47BBD1CA35171008A9B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99E47BBF1CA35171008A9B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99E47BC01CA35171008A9B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99E47BC31CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amey_Kelekar_Assignment7.xcdatamodel; sourceTree = "<group>"; };
+		99E47BCC1CA35171008A9B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99E47BCE1CA35171008A9B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99E47BD11CA35171008A9B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99E47BD31CA35171008A9B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E47BD81CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amey_Kelekar_Assignment7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E47BDC1CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amey_Kelekar_Assignment7Tests.m; sourceTree = "<group>"; };
+		99E47BDE1CA35171008A9B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E47BE31CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amey_Kelekar_Assignment7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E47BE71CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amey_Kelekar_Assignment7UITests.m; sourceTree = "<group>"; };
+		99E47BE91CA35171008A9B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E47BF61CA35214008A9B09 /* Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Address.h; path = Model/Address.h; sourceTree = "<group>"; };
+		99E47BFA1CA35246008A9B09 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = Model/Address.m; sourceTree = "<group>"; };
+		99E47BFC1CA352A0008A9B09 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Model/Person.h; sourceTree = "<group>"; };
+		99E47BFD1CA352D2008A9B09 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Model/Person.m; sourceTree = "<group>"; };
+		99E47BFF1CA35306008A9B09 /* MedicalRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MedicalRecord.h; path = Model/MedicalRecord.h; sourceTree = "<group>"; };
+		99E47C001CA35322008A9B09 /* MedicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicalRecord.m; path = Model/MedicalRecord.m; sourceTree = "<group>"; };
+		99E47C021CA35425008A9B09 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Patient.h; path = Model/Patient.h; sourceTree = "<group>"; };
+		99E47C031CA35449008A9B09 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Patient.m; path = Model/Patient.m; sourceTree = "<group>"; };
+		99E47C051CA354ED008A9B09 /* Hospital.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Hospital.h; path = Model/Hospital.h; sourceTree = "<group>"; };
+		99E47C061CA35522008A9B09 /* Hospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hospital.m; path = Model/Hospital.m; sourceTree = "<group>"; };
+		99E47C0B1CA3561E008A9B09 /* NSString+ReadString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ReadString.h"; sourceTree = "<group>"; };
+		99E47C0C1CA3561E008A9B09 /* NSString+ReadString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ReadString.m"; sourceTree = "<group>"; };
+		99E47C121CA35BED008A9B09 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		99E47C131CA35BED008A9B09 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		99E47C181CA45496008A9B09 /* ListPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListPatientViewController.h; path = Controller/ListPatientViewController.h; sourceTree = "<group>"; };
+		99E47C191CA45496008A9B09 /* ListPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListPatientViewController.m; path = Controller/ListPatientViewController.m; sourceTree = "<group>"; };
+		99E47C1B1CA454CA008A9B09 /* AddPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPatientViewController.h; path = Controller/AddPatientViewController.h; sourceTree = "<group>"; };
+		99E47C1C1CA454CA008A9B09 /* AddPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPatientViewController.m; path = Controller/AddPatientViewController.m; sourceTree = "<group>"; };
+		99E47C1F1CA4C71F008A9B09 /* no_image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = no_image.jpeg; path = "Default Image/no_image.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E47BB61CA35171008A9B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E47BD51CA35171008A9B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E47BE01CA35171008A9B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99DF2BFF1CA71E9D00E0AA57 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				99DF2BE71CA71E2D00E0AA57 /* Patient_E+CoreDataProperties.h */,
+				99DF2BE81CA71E2D00E0AA57 /* Patient_E+CoreDataProperties.m */,
+				99DF2BE91CA71E2D00E0AA57 /* Patient_E.h */,
+				99DF2BEA1CA71E2D00E0AA57 /* Patient_E.m */,
+				99DF2BEB1CA71E2D00E0AA57 /* Person_E+CoreDataProperties.h */,
+				99DF2BEC1CA71E2D00E0AA57 /* Person_E+CoreDataProperties.m */,
+				99DF2BED1CA71E2D00E0AA57 /* Person_E.h */,
+				99DF2BEE1CA71E2D00E0AA57 /* Person_E.m */,
+				99DF2BEF1CA71E2D00E0AA57 /* MedicalRecord_E+CoreDataProperties.h */,
+				99DF2BF01CA71E2D00E0AA57 /* MedicalRecord_E+CoreDataProperties.m */,
+				99DF2BF11CA71E2D00E0AA57 /* MedicalRecord_E.h */,
+				99DF2BF21CA71E2D00E0AA57 /* MedicalRecord_E.m */,
+				99DF2BF31CA71E2D00E0AA57 /* Address_E+CoreDataProperties.h */,
+				99DF2BF41CA71E2D00E0AA57 /* Address_E+CoreDataProperties.m */,
+				99DF2BF51CA71E2D00E0AA57 /* Address_E.h */,
+				99DF2BF61CA71E2D00E0AA57 /* Address_E.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		99E47BB01CA35171008A9B09 = {
+			isa = PBXGroup;
+			children = (
+				99E47BBB1CA35171008A9B09 /* Amey_Kelekar_Assignment7 */,
+				99E47BDB1CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests */,
+				99E47BE61CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests */,
+				99E47BBA1CA35171008A9B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99E47BBA1CA35171008A9B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E47BB91CA35171008A9B09 /* Amey_Kelekar_Assignment7.app */,
+				99E47BD81CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.xctest */,
+				99E47BE31CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E47BBB1CA35171008A9B09 /* Amey_Kelekar_Assignment7 */ = {
+			isa = PBXGroup;
+			children = (
+				99DF2BFF1CA71E9D00E0AA57 /* CoreData */,
+				99E47C211CA4C72A008A9B09 /* Default Image */,
+				99E47C0E1CA35969008A9B09 /* Controller */,
+				99E47BF51CA351FE008A9B09 /* Model */,
+				99E47BBF1CA35171008A9B09 /* AppDelegate.h */,
+				99E47BC01CA35171008A9B09 /* AppDelegate.m */,
+				99E47BCB1CA35171008A9B09 /* Main.storyboard */,
+				99E47BCE1CA35171008A9B09 /* Assets.xcassets */,
+				99E47BD01CA35171008A9B09 /* LaunchScreen.storyboard */,
+				99E47BD31CA35171008A9B09 /* Info.plist */,
+				99E47BC21CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodeld */,
+				99E47BBC1CA35171008A9B09 /* Supporting Files */,
+				99E47C0B1CA3561E008A9B09 /* NSString+ReadString.h */,
+				99E47C0C1CA3561E008A9B09 /* NSString+ReadString.m */,
+			);
+			path = Amey_Kelekar_Assignment7;
+			sourceTree = "<group>";
+		};
+		99E47BBC1CA35171008A9B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99E47BBD1CA35171008A9B09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99E47BDB1CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99E47BDC1CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.m */,
+				99E47BDE1CA35171008A9B09 /* Info.plist */,
+			);
+			path = Amey_Kelekar_Assignment7Tests;
+			sourceTree = "<group>";
+		};
+		99E47BE61CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				99E47BE71CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.m */,
+				99E47BE91CA35171008A9B09 /* Info.plist */,
+			);
+			path = Amey_Kelekar_Assignment7UITests;
+			sourceTree = "<group>";
+		};
+		99E47BF51CA351FE008A9B09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99E47BF61CA35214008A9B09 /* Address.h */,
+				99E47BFA1CA35246008A9B09 /* Address.m */,
+				99E47BFC1CA352A0008A9B09 /* Person.h */,
+				99E47BFD1CA352D2008A9B09 /* Person.m */,
+				99E47BFF1CA35306008A9B09 /* MedicalRecord.h */,
+				99E47C001CA35322008A9B09 /* MedicalRecord.m */,
+				99E47C021CA35425008A9B09 /* Patient.h */,
+				99E47C031CA35449008A9B09 /* Patient.m */,
+				99E47C051CA354ED008A9B09 /* Hospital.h */,
+				99E47C061CA35522008A9B09 /* Hospital.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		99E47C0E1CA35969008A9B09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99E47C181CA45496008A9B09 /* ListPatientViewController.h */,
+				99E47C191CA45496008A9B09 /* ListPatientViewController.m */,
+				99E47C121CA35BED008A9B09 /* ViewController.h */,
+				99E47C131CA35BED008A9B09 /* ViewController.m */,
+				99E47C1B1CA454CA008A9B09 /* AddPatientViewController.h */,
+				99E47C1C1CA454CA008A9B09 /* AddPatientViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		99E47C211CA4C72A008A9B09 /* Default Image */ = {
+			isa = PBXGroup;
+			children = (
+				99E47C1F1CA4C71F008A9B09 /* no_image.jpeg */,
+			);
+			name = "Default Image";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E47BB81CA35171008A9B09 /* Amey_Kelekar_Assignment7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E47BEC1CA35171008A9B09 /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment7" */;
+			buildPhases = (
+				99E47BB51CA35171008A9B09 /* Sources */,
+				99E47BB61CA35171008A9B09 /* Frameworks */,
+				99E47BB71CA35171008A9B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amey_Kelekar_Assignment7;
+			productName = Amey_Kelekar_Assignment7;
+			productReference = 99E47BB91CA35171008A9B09 /* Amey_Kelekar_Assignment7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99E47BD71CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E47BEF1CA35171008A9B09 /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment7Tests" */;
+			buildPhases = (
+				99E47BD41CA35171008A9B09 /* Sources */,
+				99E47BD51CA35171008A9B09 /* Frameworks */,
+				99E47BD61CA35171008A9B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99E47BDA1CA35171008A9B09 /* PBXTargetDependency */,
+			);
+			name = Amey_Kelekar_Assignment7Tests;
+			productName = Amey_Kelekar_Assignment7Tests;
+			productReference = 99E47BD81CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99E47BE21CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E47BF21CA35171008A9B09 /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment7UITests" */;
+			buildPhases = (
+				99E47BDF1CA35171008A9B09 /* Sources */,
+				99E47BE01CA35171008A9B09 /* Frameworks */,
+				99E47BE11CA35171008A9B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99E47BE51CA35171008A9B09 /* PBXTargetDependency */,
+			);
+			name = Amey_Kelekar_Assignment7UITests;
+			productName = Amey_Kelekar_Assignment7UITests;
+			productReference = 99E47BE31CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E47BB11CA35171008A9B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Amey Kelekar";
+				TargetAttributes = {
+					99E47BB81CA35171008A9B09 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					99E47BD71CA35171008A9B09 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 99E47BB81CA35171008A9B09;
+					};
+					99E47BE21CA35171008A9B09 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 99E47BB81CA35171008A9B09;
+					};
+				};
+			};
+			buildConfigurationList = 99E47BB41CA35171008A9B09 /* Build configuration list for PBXProject "Amey_Kelekar_Assignment7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99E47BB01CA35171008A9B09;
+			productRefGroup = 99E47BBA1CA35171008A9B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E47BB81CA35171008A9B09 /* Amey_Kelekar_Assignment7 */,
+				99E47BD71CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests */,
+				99E47BE21CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99E47BB71CA35171008A9B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E47C201CA4C71F008A9B09 /* no_image.jpeg in Resources */,
+				99E47BD21CA35171008A9B09 /* LaunchScreen.storyboard in Resources */,
+				99E47BCF1CA35171008A9B09 /* Assets.xcassets in Resources */,
+				99E47BCD1CA35171008A9B09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E47BD61CA35171008A9B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E47BE11CA35171008A9B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E47BB51CA35171008A9B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DF2BF91CA71E2D00E0AA57 /* Person_E+CoreDataProperties.m in Sources */,
+				99DF2BF71CA71E2D00E0AA57 /* Patient_E+CoreDataProperties.m in Sources */,
+				99E47C0D1CA3561E008A9B09 /* NSString+ReadString.m in Sources */,
+				99E47C011CA35322008A9B09 /* MedicalRecord.m in Sources */,
+				99E47C071CA35522008A9B09 /* Hospital.m in Sources */,
+				99E47BFB1CA35246008A9B09 /* Address.m in Sources */,
+				99E47C151CA35BED008A9B09 /* ViewController.m in Sources */,
+				99E47C041CA35449008A9B09 /* Patient.m in Sources */,
+				99DF2BFC1CA71E2D00E0AA57 /* MedicalRecord_E.m in Sources */,
+				99DF2BFA1CA71E2D00E0AA57 /* Person_E.m in Sources */,
+				99DF2BFD1CA71E2D00E0AA57 /* Address_E+CoreDataProperties.m in Sources */,
+				99E47BFE1CA352D2008A9B09 /* Person.m in Sources */,
+				99E47BC41CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodeld in Sources */,
+				99E47C1A1CA45496008A9B09 /* ListPatientViewController.m in Sources */,
+				99DF2BFE1CA71E2D00E0AA57 /* Address_E.m in Sources */,
+				99DF2BFB1CA71E2D00E0AA57 /* MedicalRecord_E+CoreDataProperties.m in Sources */,
+				99E47BC11CA35171008A9B09 /* AppDelegate.m in Sources */,
+				99E47C1D1CA454CA008A9B09 /* AddPatientViewController.m in Sources */,
+				99DF2BF81CA71E2D00E0AA57 /* Patient_E.m in Sources */,
+				99E47BBE1CA35171008A9B09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E47BD41CA35171008A9B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E47BDD1CA35171008A9B09 /* Amey_Kelekar_Assignment7Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E47BDF1CA35171008A9B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E47BE81CA35171008A9B09 /* Amey_Kelekar_Assignment7UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99E47BDA1CA35171008A9B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99E47BB81CA35171008A9B09 /* Amey_Kelekar_Assignment7 */;
+			targetProxy = 99E47BD91CA35171008A9B09 /* PBXContainerItemProxy */;
+		};
+		99E47BE51CA35171008A9B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99E47BB81CA35171008A9B09 /* Amey_Kelekar_Assignment7 */;
+			targetProxy = 99E47BE41CA35171008A9B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99E47BCB1CA35171008A9B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E47BCC1CA35171008A9B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99E47BD01CA35171008A9B09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E47BD11CA35171008A9B09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99E47BEA1CA35171008A9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99E47BEB1CA35171008A9B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99E47BED1CA35171008A9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Amey_Kelekar_Assignment7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameykelekar.Amey-Kelekar-Assignment7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99E47BEE1CA35171008A9B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Amey_Kelekar_Assignment7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameykelekar.Amey-Kelekar-Assignment7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99E47BF01CA35171008A9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Amey_Kelekar_Assignment7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameykelekar.Amey-Kelekar-Assignment7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amey_Kelekar_Assignment7.app/Amey_Kelekar_Assignment7";
+			};
+			name = Debug;
+		};
+		99E47BF11CA35171008A9B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Amey_Kelekar_Assignment7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameykelekar.Amey-Kelekar-Assignment7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amey_Kelekar_Assignment7.app/Amey_Kelekar_Assignment7";
+			};
+			name = Release;
+		};
+		99E47BF31CA35171008A9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Amey_Kelekar_Assignment7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameykelekar.Amey-Kelekar-Assignment7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Amey_Kelekar_Assignment7;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		99E47BF41CA35171008A9B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Amey_Kelekar_Assignment7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameykelekar.Amey-Kelekar-Assignment7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Amey_Kelekar_Assignment7;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E47BB41CA35171008A9B09 /* Build configuration list for PBXProject "Amey_Kelekar_Assignment7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E47BEA1CA35171008A9B09 /* Debug */,
+				99E47BEB1CA35171008A9B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E47BEC1CA35171008A9B09 /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E47BED1CA35171008A9B09 /* Debug */,
+				99E47BEE1CA35171008A9B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E47BEF1CA35171008A9B09 /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E47BF01CA35171008A9B09 /* Debug */,
+				99E47BF11CA35171008A9B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E47BF21CA35171008A9B09 /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E47BF31CA35171008A9B09 /* Debug */,
+				99E47BF41CA35171008A9B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99E47BC21CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99E47BC31CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodel */,
+			);
+			currentVersion = 99E47BC31CA35171008A9B09 /* Amey_Kelekar_Assignment7.xcdatamodel */;
+			path = Amey_Kelekar_Assignment7.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99E47BB11CA35171008A9B09 /* Project object */;
+}
