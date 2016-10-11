@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9968D82B1C7779D3007B2E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9968D82A1C7779D3007B2E2E /* main.m */; };
+		9968D8341C77C44F007B2E2E /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9968D8331C77C44F007B2E2E /* Patient.m */; };
+		9968D8361C77C460007B2E2E /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 9968D8351C77C460007B2E2E /* Address.m */; };
+		9968D8391C77CA31007B2E2E /* MedicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9968D8381C77CA31007B2E2E /* MedicalRecord.m */; };
+		9968D83C1C77CC0F007B2E2E /* Hospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 9968D83B1C77CC0F007B2E2E /* Hospital.m */; };
+		9968D83F1C77CC3B007B2E2E /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 9968D83E1C77CC3B007B2E2E /* Department.m */; };
+		9968D8421C77E6AE007B2E2E /* NSString+ReadString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9968D8411C77E6AE007B2E2E /* NSString+ReadString.m */; };
+		99A94AA81C792DE300BEA113 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A94AA71C792DE300BEA113 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9968D8251C7779D3007B2E2E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9968D8271C7779D3007B2E2E /* Amey_Kelekar_Assignment4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Amey_Kelekar_Assignment4; sourceTree = BUILT_PRODUCTS_DIR; };
+		9968D82A1C7779D3007B2E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9968D8311C7779F9007B2E2E /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		9968D8321C77C165007B2E2E /* Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		9968D8331C77C44F007B2E2E /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		9968D8351C77C460007B2E2E /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		9968D8371C77C821007B2E2E /* MedicalRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicalRecord.h; sourceTree = "<group>"; };
+		9968D8381C77CA31007B2E2E /* MedicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalRecord.m; sourceTree = "<group>"; };
+		9968D83A1C77CBFA007B2E2E /* Hospital.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hospital.h; sourceTree = "<group>"; };
+		9968D83B1C77CC0F007B2E2E /* Hospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hospital.m; sourceTree = "<group>"; };
+		9968D83D1C77CC26007B2E2E /* Department.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		9968D83E1C77CC3B007B2E2E /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		9968D8401C77E6AE007B2E2E /* NSString+ReadString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ReadString.h"; sourceTree = "<group>"; };
+		9968D8411C77E6AE007B2E2E /* NSString+ReadString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ReadString.m"; sourceTree = "<group>"; };
+		99A94AA31C792D2E00BEA113 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		99A94AA71C792DE300BEA113 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9968D8241C7779D3007B2E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9968D81E1C7779D3007B2E2E = {
+			isa = PBXGroup;
+			children = (
+				9968D8291C7779D3007B2E2E /* Amey_Kelekar_Assignment4 */,
+				9968D8281C7779D3007B2E2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9968D8281C7779D3007B2E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9968D8271C7779D3007B2E2E /* Amey_Kelekar_Assignment4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9968D8291C7779D3007B2E2E /* Amey_Kelekar_Assignment4 */ = {
+			isa = PBXGroup;
+			children = (
+				9968D82A1C7779D3007B2E2E /* main.m */,
+				9968D8311C7779F9007B2E2E /* Patient.h */,
+				9968D8321C77C165007B2E2E /* Address.h */,
+				9968D8331C77C44F007B2E2E /* Patient.m */,
+				9968D8351C77C460007B2E2E /* Address.m */,
+				9968D8371C77C821007B2E2E /* MedicalRecord.h */,
+				9968D8381C77CA31007B2E2E /* MedicalRecord.m */,
+				9968D83A1C77CBFA007B2E2E /* Hospital.h */,
+				9968D83B1C77CC0F007B2E2E /* Hospital.m */,
+				9968D83D1C77CC26007B2E2E /* Department.h */,
+				9968D83E1C77CC3B007B2E2E /* Department.m */,
+				9968D8401C77E6AE007B2E2E /* NSString+ReadString.h */,
+				9968D8411C77E6AE007B2E2E /* NSString+ReadString.m */,
+				99A94AA31C792D2E00BEA113 /* Person.h */,
+				99A94AA71C792DE300BEA113 /* Person.m */,
+			);
+			path = Amey_Kelekar_Assignment4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9968D8261C7779D3007B2E2E /* Amey_Kelekar_Assignment4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9968D82E1C7779D3007B2E2E /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment4" */;
+			buildPhases = (
+				9968D8231C7779D3007B2E2E /* Sources */,
+				9968D8241C7779D3007B2E2E /* Frameworks */,
+				9968D8251C7779D3007B2E2E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amey_Kelekar_Assignment4;
+			productName = Amey_Kelekar_Assignment4;
+			productReference = 9968D8271C7779D3007B2E2E /* Amey_Kelekar_Assignment4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9968D81F1C7779D3007B2E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Amey Kelekar";
+				TargetAttributes = {
+					9968D8261C7779D3007B2E2E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9968D8221C7779D3007B2E2E /* Build configuration list for PBXProject "Amey_Kelekar_Assignment4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9968D81E1C7779D3007B2E2E;
+			productRefGroup = 9968D8281C7779D3007B2E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9968D8261C7779D3007B2E2E /* Amey_Kelekar_Assignment4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9968D8231C7779D3007B2E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9968D8391C77CA31007B2E2E /* MedicalRecord.m in Sources */,
+				9968D83C1C77CC0F007B2E2E /* Hospital.m in Sources */,
+				99A94AA81C792DE300BEA113 /* Person.m in Sources */,
+				9968D8361C77C460007B2E2E /* Address.m in Sources */,
+				9968D82B1C7779D3007B2E2E /* main.m in Sources */,
+				9968D8421C77E6AE007B2E2E /* NSString+ReadString.m in Sources */,
+				9968D8341C77C44F007B2E2E /* Patient.m in Sources */,
+				9968D83F1C77CC3B007B2E2E /* Department.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9968D82C1C7779D3007B2E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9968D82D1C7779D3007B2E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9968D82F1C7779D3007B2E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9968D8301C7779D3007B2E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9968D8221C7779D3007B2E2E /* Build configuration list for PBXProject "Amey_Kelekar_Assignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9968D82C1C7779D3007B2E2E /* Debug */,
+				9968D82D1C7779D3007B2E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9968D82E1C7779D3007B2E2E /* Build configuration list for PBXNativeTarget "Amey_Kelekar_Assignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9968D82F1C7779D3007B2E2E /* Debug */,
+				9968D8301C7779D3007B2E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9968D81F1C7779D3007B2E2E /* Project object */;
+}
